@@ -1,15 +1,10 @@
 # hermitcrab
 
-```
-        _          _
-       ( \        / )
-        \ \______/ /
-     .--'          '--.
-    /    o        o    \       hermitcrab
-    \    '--------'    /       a browser agent that lives in a borrowed shell
-     '-.____________.-'        and clicks things so you don't have to
-       /  /  |  |  \  \
-```
+<p align="center">
+  <img src="assets/hermitcrab-demo.svg" alt="A tiny cartoon hermit crab walks around inside a sandboxed browser: it logs in, adds the cheapest item to the cart, waits for human approval before pressing Finish, then hops when the order is confirmed" width="100%">
+</p>
+
+<p align="center"><i>A browser agent that lives in a borrowed shell and clicks things so you don't have to.</i></p>
 
 **hermitcrab** is a browser automation agent that completes multi-step web tasks by writing and running its own Playwright code, one small step at a time.
 
